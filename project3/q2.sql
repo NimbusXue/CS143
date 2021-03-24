@@ -1,0 +1,1 @@
+SELECT DISTINCT affiliationCountry FROM Nobel WHERE affiliationName="CERN";

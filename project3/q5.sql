@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT awardYear) FROM LaureateOrganization L , Nobel N WHERE L.id=N.id;

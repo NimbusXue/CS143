@@ -1,0 +1,1 @@
+SELECT id FROM LaureatePerson where givenName="Marie" AND familyName="Curie";

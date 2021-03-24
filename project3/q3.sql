@@ -1,0 +1,1 @@
+SELECT familyName FROM (SELECT DISTINCT id,awardYear,category FROM Nobel) N,LaureatePerson L WHERE N.id=L.id GROUP BY familyName HAVING COUNT(*)>=5;
